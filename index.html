@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>SECURE AI — Identity • Security • Efficiency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" aria-label="Secure AI home">
+        <span class="brand-mark">S</span>
+        <span><strong>SECURE<span>AI</span></strong><small>TRUST. PROTECT. SIMPLIFY.</small></span>
+      </a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="nav-list" aria-label="Main navigation">
+        <button class="nav-item active" data-page="overview"><span>▦</span> Overview</button>
+        <button class="nav-item" data-page="identity"><span>◎</span> Identity Center</button>
+        <button class="nav-item" data-page="security"><span>⬡</span> Security Center</button>
+        <button class="nav-item" data-page="efficiency"><span>✧</span> AI Workspace</button>
+        <button class="nav-item" data-page="documents"><span>▤</span> Documents</button>
+        <button class="nav-item" data-page="activity"><span>◷</span> Activity Log</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="privacy-card">
+          <div class="privacy-icon">♧</div>
+          <strong>Privacy first</strong>
+          <p>Your information should stay under your control.</p>
+          <span class="privacy-status"><i></i> Demo environment</span>
+        </div>
+        <button class="nav-item" data-page="settings"><span>⚙</span> Settings</button>
+        <div class="user-mini">
+          <div class="avatar">SA</div><div><strong>Demo Account</strong><small>Workspace owner</small></div>
+          <span class="dots">•••</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+        <div class="breadcrumbs"><span>Workspace</span><b>/</b><strong id="crumb">Overview</strong></div>
+        <div class="top-actions">
+          <span class="demo-pill"><i></i> DEMO MODE</span>
+          <button class="icon-button" id="helpBtn" title="Help">?</button>
+          <button class="profile-button"><span class="avatar small">SA</span><span>Demo User</span><b>⌄</b></button>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="page active" id="page-overview">
+          <div class="welcome-row">
+            <div><div class="eyebrow">SUNDAY, NOVEMBER 8, 2026</div><h1>Your security, <em>simplified.</em></h1>
+              <p class="subheading">A clear view of your identity, digital safety and everyday productivity.</p></div>
+            <button class="primary-button" data-go="identity">＋ Start identity check</button>
+          </div>
+          <div class="notice"><span class="notice-symbol">ⓘ</span><div><strong>Prototype environment</strong><p>All figures and actions on this screen are sample data. No real identity checks, threat monitoring, or secure account operations are running yet.</p></div><button class="notice-close" aria-label="Dismiss">×</button></div>
+          <div class="stat-grid">
+            <article class="stat-card"><div class="stat-top"><span>Identity status</span><span class="stat-icon violet">◎</span></div><div class="stat-value">Not verified</div><div class="stat-foot"><span class="dot muted"></span> Complete setup to continue</div></article>
+            <article class="stat-card"><div class="stat-top"><span>Security posture</span><span class="stat-icon green">⬡</span></div><div class="stat-value">Baseline</div><div class="stat-foot"><span class="dot green-dot"></span> Demo checklist available</div></article>
+            <article class="stat-card"><div class="stat-top"><span>AI tasks completed</span><span class="stat-icon blue">✧</span></div><div class="stat-value">08</div><div class="stat-foot"><span class="trend">＋ 2</span> this demo session</div></article>
+            <article class="stat-card"><div class="stat-top"><span>Open alerts</span><span class="stat-icon amber">!</span></div><div class="stat-value">02</div><div class="stat-foot"><span class="dot amber-dot"></span> Sample alerts — review below</div></article>
+          </div>
+          <div class="section-heading"><div><h2>Explore your workspace</h2><p>Three connected capabilities. One privacy-first experience.</p></div><span class="muted-label">CORE MODULES</span></div>
+          <div class="module-grid">
+            <article class="module-card identity-card"><div class="module-head"><span class="module-icon">◎</span><span class="module-tag">IDENTITY</span></div><h3>Know it's really you.</h3><p>Plan secure sign-in, consent-based identity checks and document verification.</p><button class="text-button" data-go="identity">Open Identity Center <b>→</b></button></article>
+            <article class="module-card security-card"><div class="module-head"><span class="module-icon">⬡</span><span class="module-tag">SECURITY</span></div><h3>Stay one step ahead.</h3><p>Review security guidance, sample alerts and account protection controls.</p><button class="text-button" data-go="security">Open Security Center <b>→</b></button></article>
+            <article class="module-card efficiency-card"><div class="module-head"><span class="module-icon">✧</span><span class="module-tag">EFFICIENCY</span></div><h3>Make work flow.</h3><p>Explore document workflows, text extraction concepts and AI-assisted tasks.</p><button class="text-button" data-go="efficiency">Open AI Workspace <b>→</b></button></article>
+          </div>
+          <div class="lower-grid">
+            <article class="panel"><div class="panel-title"><div><h3>Security checklist</h3><p>Recommended foundations for a safer account</p></div><span class="soft-badge">2 / 5</span></div>
+              <div class="check-list">
+                <label><input type="checkbox" checked disabled><span><strong>Use a unique password</strong><small>Never reuse passwords across services</small></span><b class="check-done">Done</b></label>
+                <label><input type="checkbox" checked disabled><span><strong>Enable multi-factor authentication</strong><small>Use an authenticator or passkey where available</small></span><b class="check-done">Done</b></label>
+                <label><input type="checkbox"><span><strong>Review active sessions</strong><small>Sign out of devices you no longer use</small></span><b class="check-pending">Review</b></label>
+                <label><input type="checkbox"><span><strong>Set account recovery options</strong><small>Keep recovery methods up to date</small></span><b class="check-pending">Review</b></label>
+              </div>
+            </article>
+            <article class="panel activity-panel"><div class="panel-title"><div><h3>Recent activity</h3><p>Illustrative events in this demo</p></div><button class="link-button" data-go="activity">View all →</button></div>
+              <div class="activity-row"><span class="activity-symbol blue">↗</span><div><strong>New sign-in detected</strong><small>Sample event · Today, 09:42 AM</small></div><span class="event-tag">Info</span></div>
+              <div class="activity-row"><span class="activity-symbol amber">!</span><div><strong>Security review recommended</strong><small>Sample event · Today, 08:15 AM</small></div><span class="event-tag warning">Review</span></div>
+              <div class="activity-row"><span class="activity-symbol green">✓</span><div><strong>Workspace opened</strong><small>Sample event · Yesterday</small></div><span class="event-tag">Info</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="page" id="page-identity">
+          <div class="page-heading"><div><div class="eyebrow">IDENTITY & ACCESS</div><h1>Identity Center</h1><p class="subheading">A transparent, consent-led approach to proving account ownership.</p></div><span class="status-pill neutral">Setup required</span></div>
+          <div class="two-column">
+            <article class="panel feature-panel"><div class="large-feature-icon violet">◎</div><h2>Verify with confidence.</h2><p>In a production release, identity verification should use a trusted provider, collect only necessary information, and clearly explain how data is used and retained.</p><div class="feature-points"><span>✓ Explicit user consent</span><span>✓ Minimum data collection</span><span>✓ Clear retention and deletion policy</span></div><button class="primary-button" id="identityDemo">Preview verification flow</button><p class="fine-print">This preview does not verify a real person or identity document.</p></article>
+            <article class="panel"><div class="panel-title"><div><h3>Sign-in methods</h3><p>Recommended authentication options</p></div></div>
+              <div class="method-row"><span class="method-icon">⌑</span><div><strong>Passkeys</strong><small>Phishing-resistant sign-in using your device</small></div><span class="soft-badge green-soft">Recommended</span></div>
+              <div class="method-row"><span class="method-icon">▣</span><div><strong>Authenticator app</strong><small>Time-based one-time passwords</small></div><span class="soft-badge">Planned</span></div>
+              <div class="method-row"><span class="method-icon">✉</span><div><strong>Email verification</strong><small>Useful for account confirmation and recovery</small></div><span class="soft-badge">Planned</span></div>
+              <div class="method-row"><span class="method-icon">◉</span><div><strong>Device biometrics</strong><small>Use platform biometrics; do not store raw face or fingerprint data</small></div><span class="soft-badge">Optional</span></div>
+            </article>
+          </div>
+          <article class="panel privacy-panel"><div><h3>Your identity. Your control.</h3><p>Before any real verification is enabled, users must be told what is collected, why it is needed, who processes it, and how to request deletion.</p></div><div class="privacy-shield">♧</div></article>
+        </section>
+
+        <section class="page" id="page-security">
+          <div class="page-heading"><div><div class="eyebrow">PROTECTION & MONITORING</div><h1>Security Center</h1><p class="subheading">Understand risks and build strong digital safety habits.</p></div><span class="status-pill green-status">Demo controls active</span></div>
+          <div class="security-banner"><div class="banner-shield">⬡</div><div><span class="banner-kicker">SECURITY OVERVIEW</span><h2>Your protection checklist is ready.</h2><p>These are recommendations, not a live scan of your device or network.</p></div><span class="banner-score">—<small>not scored</small></span></div>
+          <div class="stat-grid security-stats">
+            <article class="stat-card"><div class="stat-top"><span>Sample alerts</span><span class="stat-icon amber">!</span></div><div class="stat-value">02</div><div class="stat-foot">Illustrative only</div></article>
+            <article class="stat-card"><div class="stat-top"><span>Protection checks</span><span class="stat-icon green">✓</span></div><div class="stat-value">05</div><div class="stat-foot">Suggested actions</div></article>
+            <article class="stat-card"><div class="stat-top"><span>Live monitoring</span><span class="stat-icon blue">◉</span></div><div class="stat-value">Off</div><div class="stat-foot">Backend not connected</div></article>
+          </div>
+          <article class="panel"><div class="panel-title"><div><h3>Recommended security actions</h3><p>Mark items as you complete them on your own accounts.</p></div></div>
+            <div class="action-list" id="securityActions">
+              <label><input type="checkbox"><span><strong>Turn on multi-factor authentication</strong><small>Add a second factor to important accounts.</small></span></label>
+              <label><input type="checkbox"><span><strong>Review recovery email and phone</strong><small>Ensure you can recover access safely.</small></span></label>
+              <label><input type="checkbox"><span><strong>Update your devices and browser</strong><small>Install security updates from official sources.</small></span></label>
+              <label><input type="checkbox"><span><strong>Check for suspicious account sessions</strong><small>Revoke sessions you do not recognize.</small></span></label>
+              <label><input type="checkbox"><span><strong>Back up important files</strong><small>Keep a protected, tested backup.</small></span></label>
+            </div>
+          </article>
+        </section>
+
+        <section class="page" id="page-efficiency">
+          <div class="page-heading"><div><div class="eyebrow">AI PRODUCTIVITY</div><h1>AI Workspace</h1><p class="subheading">A focused space for responsible AI-assisted work.</p></div><span class="status-pill neutral">Tools preview</span></div>
+          <div class="tool-grid">
+            <article class="tool-card"><div class="tool-icon blue">▤</div><h3>Document assistant</h3><p>Prepare a workflow to summarize and organize documents.</p><button class="secondary-button" data-go="documents">Open documents →</button></article>
+            <article class="tool-card"><div class="tool-icon violet">✧</div><h3>Text assistant</h3><p>Draft, rewrite and simplify everyday text with AI.</p><button class="secondary-button" id="textTool">Try sample tool →</button></article>
+            <article class="tool-card"><div class="tool-icon green">⌁</div><h3>Smart workflows</h3><p>Plan repeatable steps for routine office tasks.</p><button class="secondary-button" id="workflowTool">View workflow →</button></article>
+          </div>
+          <article class="panel assistant-panel"><div class="assistant-heading"><div class="assistant-avatar">✧</div><div><h3>Secure AI assistant</h3><p>Sample interface · No external AI service connected</p></div><span class="online-dot"></span></div><div class="assistant-chat" id="assistantChat"><div class="bot-message">Hello! I can demonstrate how an AI assistant interface will work. Avoid entering passwords, OTPs, financial details or sensitive personal information in this demo.</div></div><form id="assistantForm" class="assistant-form"><input id="assistantInput" type="text" placeholder="Try: Give me 3 tips to protect my account…" maxlength="300" autocomplete="off"><button class="primary-button" type="submit">Send ↑</button></form></article>
+        </section>
+
+        <section class="page" id="page-documents">
+          <div class="page-heading"><div><div class="eyebrow">FILES & INFORMATION</div><h1>Documents</h1><p class="subheading">A preview of a consent-based document processing workspace.</p></div><span class="status-pill neutral">Local demo only</span></div>
+          <article class="upload-panel panel"><div class="upload-art">⇧</div><h2>Bring your documents into focus.</h2><p>Choose a non-sensitive sample file to preview its name and size. This demo does not upload or process files.</p><label class="upload-button">Choose a file<input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.txt,.doc,.docx"></label><div id="fileResult" class="file-result">No file selected</div><div class="fine-print">Do not select identity documents or confidential files in this prototype.</div></article>
+          <div class="tool-grid compact-tools"><article class="tool-card"><div class="tool-icon blue">⌕</div><h3>OCR extraction</h3><p>Convert images and scans into searchable text in a future release.</p><span class="soft-badge">Planned</span></article><article class="tool-card"><div class="tool-icon violet">≋</div><h3>Summarization</h3><p>Create concise summaries with source references.</p><span class="soft-badge">Planned</span></article><article class="tool-card"><div class="tool-icon green">▣</div><h3>Secure archive</h3><p>Store files with access control, encryption and retention rules.</p><span class="soft-badge">Planned</span></article></div>
+        </section>
+
+        <section class="page" id="page-activity">
+          <div class="page-heading"><div><div class="eyebrow">TRANSPARENCY</div><h1>Activity Log</h1><p class="subheading">A sample audit timeline showing the kind of events a production platform should record.</p></div><button class="secondary-button" id="clearActivity">Clear demo entries</button></div>
+          <article class="panel"><div class="panel-title"><div><h3>Recent events</h3><p>Sample events · Not connected to a real account</p></div><span class="soft-badge">3 entries</span></div><div id="fullActivity" class="timeline"><div class="timeline-item"><i class="blue"></i><div><strong>Workspace session started</strong><p>Demo account · Today, 09:42 AM</p></div><span>Info</span></div><div class="timeline-item"><i class="amber"></i><div><strong>Security review reminder shown</strong><p>Demo account · Today, 08:15 AM</p></div><span>Review</span></div><div class="timeline-item"><i class="green"></i><div><strong>Privacy notice displayed</strong><p>Demo account · Yesterday</p></div><span>Info</span></div></div></article>
+          <div class="notice"><span class="notice-symbol">ⓘ</span><div><strong>Audit log design note</strong><p>Production audit records should be tamper-resistant, access-controlled, time-stamped, and should avoid storing passwords, OTPs, or unnecessary sensitive content.</p></div></div>
+        </section>
+
+        <section class="page" id="page-settings">
+          <div class="page-heading"><div><div class="eyebrow">PREFERENCES & CONTROL</div><h1>Settings</h1><p class="subheading">Privacy and account preferences for the prototype.</p></div></div>
+          <article class="panel settings-list">
+            <div class="setting-row"><div><strong>Security notifications</strong><small>Show sample security notifications in this demo.</small></div><label class="switch"><input type="checkbox" id="notifyToggle" checked><span></span></label></div>
+            <div class="setting-row"><div><strong>Privacy-first defaults</strong><small>Collect only what is needed; ask before optional processing.</small></div><span class="soft-badge green-soft">On by design</span></div>
+            <div class="setting-row"><div><strong>Language</strong><small>Interface language preference.</small></div><select><option>English</option><option>తెలుగు (planned)</option><option>हिन्दी (planned)</option></select></div>
+            <div class="setting-row"><div><strong>Account deletion</strong><small>Production accounts must have a clear data export and deletion process.</small></div><span class="soft-badge">Planned</span></div>
+          </article>
+          <div class="notice"><span class="notice-symbol">ⓘ</span><div><strong>Not a live account settings page</strong><p>This prototype stores no account profile, password, biometric template or identity document.</p></div></div>
+        </section>
+        <footer class="footer"><span>© 2026 SECURE AI</span><span>Privacy first · Security by design · Human in control</span></footer>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
